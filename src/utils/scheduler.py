@@ -29,12 +29,12 @@ def run_scheduler(interval_minutes: int, job_function: Callable, run_once_at_sta
         schedule.run_pending()
         time.sleep(1)
 
-def run_threaded(job_func: Callable):
+def run_threaded(job_function: Callable):
     """
     Uruchamia zadanie w osobnym wątku
     
     Args:
-        job_func: Funkcja do uruchomienia
+        job_function: Funkcja do uruchomienia
     """
-    job_thread = threading.Thread(target=job_func)
+    job_thread = threading.Thread(target=job_function)
     job_thread.start()

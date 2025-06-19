@@ -3,7 +3,7 @@ Moduł odpowiedzialny za scraping danych z eDziekanatu
 """
 import logging
 import requests
-from typing import Dict, List, Optional
+from typing import Dict, List
 from bs4 import BeautifulSoup
 
 from src.config.settings import (

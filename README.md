@@ -27,7 +27,7 @@ System automatycznie łączy się z dziękanatem co 15 minut, pobiera oceny i wy
 
 1. Klonuj repozytorium
 ```bash
-git clone https://github.com/twoja-nazwa/GradeNotifier.git
+git clone https://github.com/michalspoko18/GradeNotifier.git
 cd GradeNotifier
 ```
 

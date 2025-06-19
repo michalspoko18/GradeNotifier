@@ -1,0 +1,13 @@
+.DS_Store
+*.pyc
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+grades.db
+gradenotifier.log
+data/
+logs/
+
+# Do not ignore example env file
+!.env.example

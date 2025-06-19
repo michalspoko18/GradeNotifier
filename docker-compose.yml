@@ -1,0 +1,21 @@
+version: '3'
+
+services:
+  gradenotifier:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: gradenotifier
+    restart: always
+    volumes:
+      - ./data:/app/data
+      - ./logs:/app/logs
+      - ./.env:/app/.env
+    environment:
+      - TZ=Europe/Warsaw
+    # Healthcheck do monitorowania czy aplikacja działa
+    healthcheck:
+      test: ["CMD", "python", "-c", "import os; exit(0 if os.path.exists('/app/logs/gradenotifier.log') else 1)"]
+      interval: 5m
+      timeout: 30s
+      retries: 3

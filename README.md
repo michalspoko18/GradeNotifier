@@ -168,4 +168,3 @@ Aplikacja używa SQLite do przechowywania danych. Struktura bazy:
 - `subject_id` - klucz obcy do tabeli subjects
 - `grade` - ocena
 - `date` - data wystawienia oceny
-- `added_date` - data dodania oceny do systemu

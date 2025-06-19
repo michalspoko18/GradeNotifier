@@ -3,7 +3,7 @@ Moduł odpowiedzialny za wysyłanie powiadomień poprzez Discord
 """
 import asyncio
 import logging
-from typing import Dict, List, Optional
+from typing import Dict, List
 import discord
 
 from src.config.settings import DISCORD_TOKEN, DISCORD_USER_ID

@@ -4,7 +4,7 @@ Aplikacja automatycznie sprawdzająca i powiadamiająca o nowych ocenach z dziek
 
 ## Opis
 
-System automatycznie łączy się z dziękanatem co 15 minut, pobiera oceny i wysyła powiadomienia bezpośrednio do użytkownika Discord jako wiadomość prywatną, gdy pojawi się nowa ocena.
+System automatycznie łączy się z dziekanatem co 15 minut, pobiera oceny i wysyła powiadomienia bezpośrednio do użytkownika Discord jako wiadomość prywatną, gdy pojawi się nowa ocena.
 
 ### Funkcje
 
